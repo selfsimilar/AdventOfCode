@@ -1,8 +1,10 @@
 // Advent of Code 2022 Day 01a:
-// Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
+// Find the top three elves carrying the most Calories.
+// How many total Calories are they carrying?
 // input is a file of numbers, one per line, with a blank line to demarcate groupings (Elves).
 //
-// Sum the groupings to find the grouping (Elf) with the highest total. Print the largest sum.
+// Sum the groupings to find the grouping (Elf) with the highest total.
+// Print the sum of the largest three subtotals (Elves).
 
 use std::vec;
 use std::fs::File;
