@@ -1,6 +1,7 @@
 <?php
 
-$input = file('./input1.txt');
+// $input = file('./test2_input.txt');
+$input = file('./puzzle.txt');
 
 $total = 0;
 foreach($input as $line) {
